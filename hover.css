@@ -1,0 +1,39 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+body {
+	background-image: url(fortress.jpg);
+	margin: 0px;
+
+}
+
+img {
+	width: 450px;
+	border: 5px solid blue;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+h1 {
+	font-family: Showcard Gothic, fantasy;
+	font-size: 3em;
+	border-bottom: 5px dashed green;
+	width: 400px;
+	text-align: center;
+	border-right: 6px dashed green;
+	color: orangered;
+	-moz-box-shadow: 4px 4px 5px;
+	-ms-box-shadow: 4px 4px 5px;
+	-webkit-box-shadow: 4px 4px 5px;
+	-o-box-shadow: 4px 4px 5px;
+	box-shadow: 4px 4px 5px;
+	margin-top: 10px;
+}
